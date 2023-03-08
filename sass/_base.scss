@@ -26,7 +26,7 @@ html{
 
 // colors 
 
-$color-primary: #224722;
+$color-primary: #A5C925;
 $color-secondary: #e0ffc0;
 
 $color-dark-1: #1E1F1D;
@@ -34,6 +34,11 @@ $color-light: #E7EDDE;
 $color-white: #fff;
 
 // subclasses - font styling
+
+.logo {
+    font-family: "Varela Round", sans-serif;
+    font-size: 2.2rem;
+}
 
 .title-large {
 

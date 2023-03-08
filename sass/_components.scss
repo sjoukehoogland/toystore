@@ -1,16 +1,19 @@
 .nav {
 
+
     height: 100px;
     background-color: lightblue;
 
-    &__content {
-        display: contents;
+// socials - bar
 
+    &__mail {
+        text-decoration: underline;
+        cursor: pointer;
     }
 
     &__socials {
         grid-column: 1 / -1;
-        background-color: greenyellow;
+        background-color: $color-primary;
         height: 30%;
         width: 100%;
 
@@ -22,7 +25,9 @@
         align-items: center;
         gap: 2rem;
         font-family: "Open sans";
+        font-weight: 400;
         font-size: .9rem;
+        color: white;
 
     }
 
@@ -31,6 +36,7 @@
         display: flex;
         align-items: center;
         gap: 2rem;
+        cursor: pointer;
     }
 
     &__social-icon {
@@ -39,4 +45,64 @@
         fill: white;
     }
 
+// Navbar - links
+
+    &__navbar {
+        height: 70%;
+    }
+    &__navbar-content {
+        grid-column: 2;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    &__logo {
+
+    }
+
+    &__links {
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+
+    }
+
+    &__link {
+        cursor: pointer;
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 400;
+
+    }
+
+    &__cart-section {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        gap: 1.5rem;
+    }
+
+    &__cart-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    &__cart-items {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+        background-color: $color-primary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+
+    }
 }
