@@ -1,0 +1,42 @@
+.nav {
+
+    height: 100px;
+    background-color: lightblue;
+
+    &__content {
+        display: contents;
+
+    }
+
+    &__socials {
+        grid-column: 1 / -1;
+        background-color: greenyellow;
+        height: 30%;
+        width: 100%;
+
+    }
+
+    &__socials-content {
+        grid-column: 2;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-family: "Open sans";
+        font-size: .9rem;
+
+    }
+
+    &__social-icons {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    &__social-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: white;
+    }
+
+}
