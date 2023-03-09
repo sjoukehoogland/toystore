@@ -116,8 +116,10 @@
 // header
 
 .header {
-    height: 80vh;
-    background-color: plum;
+    height: 70vh;
+    background-image: url(/img/header_bg.jpeg);
+    background-size: cover;
+    background-position-y: -32rem;
 
     &__content {
         grid-column: 2;
@@ -129,15 +131,19 @@
     }
 
     &__center-container {
-        width: 60rem;
-        height: 30rem;
+        width: 52rem;
+        height: 28rem;
         background-color: white;
         border-radius: 1rem;
         justify-content: center;
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
 
+    }
+
+    &__title {
+        margin: 0 5rem;
     }
 }

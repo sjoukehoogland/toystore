@@ -47,7 +47,7 @@ body {
 
 .btn {
   background-color: #A5C925;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 3rem;
   border: none;
   border-radius: 5rem;
 }
@@ -184,8 +184,10 @@ body {
 }
 
 .header {
-  height: 80vh;
-  background-color: plum;
+  height: 70vh;
+  background-image: url(/img/header_bg.jpeg);
+  background-size: cover;
+  background-position-y: -32rem;
 }
 
 .header__content {
@@ -204,8 +206,8 @@ body {
 }
 
 .header__center-container {
-  width: 60rem;
-  height: 30rem;
+  width: 52rem;
+  height: 28rem;
   background-color: white;
   border-radius: 1rem;
   -webkit-box-pack: center;
@@ -221,7 +223,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
+}
+
+.header__title {
+  margin: 0 5rem;
 }
 
 .layout {
