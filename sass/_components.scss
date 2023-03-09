@@ -129,8 +129,15 @@
     }
 
     &__center-container {
-    padding: 12rem 7rem;
+        width: 60rem;
+        height: 30rem;
         background-color: white;
-        border-radius: 5rem;
+        border-radius: 1rem;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+
     }
 }

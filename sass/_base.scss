@@ -17,6 +17,9 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%; // 1 rem = 10px. -> 10px/16px = 62.5%
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,8 +32,8 @@ html{
 $color-primary: #A5C925;
 $color-secondary: #e0ffc0;
 
-$color-dark-1: #1E1F1D;
-$color-light: #E7EDDE;
+$color-dark-1: #111;
+$color-dark-2: #999;
 $color-white: #fff;
 
 // subclasses - font styling
@@ -41,14 +44,18 @@ $color-white: #fff;
 }
 
 .title-large {
-
+    font-family: "Varela Round", sans-serif;
+    font-size: 4rem;
 }
 
 .title {
-
+    font-family: "Varela-Round", sans-serif  ;
 }
 
 .sub-title {
+    
+    font-size: 1.3rem;
+    font-weight: 600;
 
 }
 
@@ -59,18 +66,23 @@ $color-white: #fff;
 // colors - fonts
 
 
+
 // buttons
 
 .btn  {
     background-color: #A5C925;
-    padding: 2rem 2rem;
+    padding: 1.5rem 2rem;
     border: none;
     border-radius: 5rem;
 }
 
 .btn-link {
+    text-decoration: none;
     color: white;
-    font-family: inherit;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
 }
 
 

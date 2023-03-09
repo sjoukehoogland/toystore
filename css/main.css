@@ -16,6 +16,9 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -28,16 +31,33 @@ html {
   font-size: 2.2rem;
 }
 
+.title-large {
+  font-family: "Varela Round", sans-serif;
+  font-size: 4rem;
+}
+
+.title {
+  font-family: "Varela-Round", sans-serif;
+}
+
+.sub-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
 .btn {
   background-color: #A5C925;
-  padding: 2rem 2rem;
+  padding: 1.5rem 2rem;
   border: none;
   border-radius: 5rem;
 }
 
 .btn-link {
+  text-decoration: none;
   color: white;
-  font-family: inherit;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .nav {
@@ -184,9 +204,24 @@ html {
 }
 
 .header__center-container {
-  padding: 12rem 7rem;
+  width: 60rem;
+  height: 30rem;
   background-color: white;
-  border-radius: 5rem;
+  border-radius: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
 }
 
 .layout {
