@@ -2,7 +2,7 @@
 
 
     height: 100px;
-    background-color: lightblue;
+
 
 // socials - bar
 
@@ -76,7 +76,10 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 1.3rem;
         font-weight: 400;
+    }
 
+    &__link:hover {
+        text-decoration: underline;
     }
 
     &__cart-section {
@@ -89,6 +92,7 @@
     &__cart-icon {
         width: 2.5rem;
         height: 2.5rem;
+        cursor: pointer;
     }
 
     &__cart-items {
@@ -104,5 +108,29 @@
         width: 2rem;
         border-radius: 50%;
 
+    }
+}
+
+// einde nav
+
+// header
+
+.header {
+    height: 80vh;
+    background-color: plum;
+
+    &__content {
+        grid-column: 2;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__center-container {
+    padding: 12rem 7rem;
+        background-color: white;
+        border-radius: 5rem;
     }
 }

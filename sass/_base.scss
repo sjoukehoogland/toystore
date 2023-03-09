@@ -17,7 +17,7 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%; // 1 rem = 10px. -> 10px/16px = 62.5%
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .link {
@@ -60,5 +60,17 @@ $color-white: #fff;
 
 
 // buttons
+
+.btn  {
+    background-color: #A5C925;
+    padding: 2rem 2rem;
+    border: none;
+    border-radius: 5rem;
+}
+
+.btn-link {
+    color: white;
+    font-family: inherit;
+}
 
 
