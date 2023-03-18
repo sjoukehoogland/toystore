@@ -116,10 +116,11 @@
 // header
 
 .header {
-    height: 70vh;
+    height: 80vh;
     background-image: url(/img/header_bg.jpeg);
     background-size: cover;
     background-position-y: -32rem;
+    margin-bottom: 10rem;
 
     &__content {
         grid-column: 2;
@@ -146,4 +147,97 @@
     &__title {
         margin: 0 5rem;
     }
+}
+
+.categories {
+
+    margin-bottom: 100px;
+
+    &__content {
+        grid-column: 2;
+        display: flex;
+        gap: 5rem;
+
+    }
+
+    &__left,
+    &__right {
+        height: 200px;
+        width: 50%; 
+        display: grid;
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: 40% 60%;
+    }
+
+    &__left { 
+        grid-template-columns: 40% 60%;
+    }
+
+    &__right {
+        grid-template-columns: 60% 40%;
+    }
+
+    &__bg {
+        grid-row: 4 / -1;
+        grid-column: 1 / -1;
+        
+        border-radius: 2rem;
+        z-index: 1;
+    }
+
+    &__bg-left {
+        background-color: purple;
+    }
+
+    &__bg-right {
+        background-color: orange;
+    }
+
+    &__btn {
+        grid-row: 9 / 10;
+        z-index: 2;
+    }
+
+    &__btn-left {
+        grid-column: 2;
+    }
+
+    &__btn-right {
+        grid-column: 1;
+        
+    }
+
+    &__img {
+        grid-row: 1 / 11;
+
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 2;
+
+    }
+
+    &__img-left {
+        grid-column: 1 / 1;
+        background-image: url(/img/product_bear.png);
+    }
+
+    &__img-right {
+        grid-column: 2 ;
+        background-image: url(/img/product_wood.png);
+    }
+
+    // &__img {
+    //     grid-row: 1 / 6;
+    //     grid-column: 1 / 1;
+    //     z-index: 2;
+    //     height: 100%;
+    //     width: auto;
+    // }
+
+
+
+    
+
 }

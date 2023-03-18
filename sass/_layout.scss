@@ -3,14 +3,14 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 .container-safezone {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: [bleed-l-start] 1fr [bleed-l-end content-start] 90% [content-end bleed-r-start] 1fr[bleed-r-end];
+    grid-template-columns: [bleed-l-start] 1fr [bleed-l-end content-start] 110rem [content-end bleed-r-start] 1fr[bleed-r-end];
     justify-content: center;
 
  }
